@@ -41,16 +41,22 @@ public class Contents extends BasicGameState {
         this.stateId = id;
     }
 
+    public void enter(GameContainer container, StateBasedGame sbg) {
+        canProgress = true;
+
+        hover = new boolean[] {false, false, false};
+        select = 0;
+        stubbornness = 0;
+    }
+
+
     @Override
     public void init(GameContainer container, StateBasedGame sbg) throws SlickException {
         this.sbg = sbg;
         this.container = container;
 
         input = Heroes.getInput();
-        canProgress = true;
 
-        hover = new boolean[] {false, false, false};
-        select = 0;
         button = new Button[] {
         new Button("Start",  (Heroes.getWidth()-200)/2, 150, 200, 50, new Image("resources/button1a.png"), new Image("resources/button1b.png")),
         new Button("Don't Start", (Heroes.getWidth()-200)/2, 250, 200, 50, new Image("resources/button2a.png"), new Image("resources/button2b.png")),
@@ -59,7 +65,7 @@ public class Contents extends BasicGameState {
 
         background = new Image("resources/background.png");
 
-        stubbornness = 0;
+
         this.messages = new String[] {"You didn't start the game.","What were you expecting?","This is going to get boring really quickly","Go away","(>'-')>","<('-'<)","^(' - ')^","<('-'<)","(>'-')>","You're going to lose now"};
     }
 
@@ -109,14 +115,13 @@ public class Contents extends BasicGameState {
             else if (select == 0) select = 1;
             else select++;
         }
-        else if ((key == Input.KEY_Z | key == Input.KEY_ENTER) & canProgress) {
+        else if ((key == Input.KEY_Z | key == Input.KEY_ENTER | key==Input.KEY_SPACE) & canProgress) {
             if (select > 0) progress(select-1);
         }
     }
     @Override public void mousePressed(int button, int x, int y) {
         //Check if mouse is clicking a button
         if (button==Input.MOUSE_LEFT_BUTTON) {
-            System.out.print("hi");
             if (hover[0]) progress(0);
             else if (hover[1]) progress(1);
             else if (hover[2]) progress(2);

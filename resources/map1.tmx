@@ -1,34 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="100" height="30" tilewidth="16" tileheight="16">
- <tileset firstgid="1" name="Tileset" tilewidth="16" tileheight="16">
+<map version="1.0" orientation="orthogonal" width="100" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Tileset" tilewidth="32" tileheight="32">
+  <properties>
+   <property name="block" value="true"/>
+  </properties>
   <image source="Tileset.png" trans="ff007f" width="640" height="400"/>
+  <tile id="0">
+   <properties>
+    <property name="block" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="block" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="block" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="block" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="block" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="block" value="true"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="block" value="true"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="block" value="true"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="block" value="true"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="block" value="true"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="block" value="true"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="block" value="true"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="block" value="true"/>
+   </properties>
+  </tile>
  </tileset>
- <layer name="Tile Layer 1" width="100" height="30">
+ <layer name="Tile Layer 1" width="100" height="15">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3RWwqDMBQFwFhtXYto2/3vzggKKqYPWhDjDBwkId6Pc0MAAACAz12/eFsl7m8x9Zt/21lIu6/Or3rrYspVBo+YZ2L+NKuY5Qx7af+Uoa9LWPb2S5px1tY3570UB06O9u7UPgAAAAAAAPLWAyuu/u7gLgAA
+   H4sIAAAAAAAAC+VX207DMAz1WAvb2Gu2DtjgE8bl/7+NRIuFZVzHicJYlCMdJY1ys09ttwC/cSDsFYtICUtGnMvHlxXucRDYI9DHa8/HRItznecW6ukhadGTJiPp14qPXF12mdxm7N0a6Hun+XFOjxrxscjkW8EZtw6MC2seuGb9aBGS3feeD8b1QQcHeXoMsX2B8vhYwaX+bOBSi1rMPdTGURhDPHk+J/ZxsT+nx1lZO4FeLyQ9RrZH0PLoefJ8hTZzD7UR/afVu30kAp8ttTLg3fOTnRPWp+q3pAevT+e4/0c848vog5oYIjVwO1J+C765g5+8IfUR1jop5Y4Vm2PVYzDYQN+Ba2KK1MDvZvF3inSvnPkcJXpMyjmOtRKkeKN5TgPG826mLz3z/FHqw1vUYyi8J4WkR0rDXHstRK1a1kOLDSk+LDktpwbW1KMm/0uPMM+aU3viX+ixZ8R/HjqWOofHRy/E7zrrfDdDbQ3+89Cx3Nj4BuAQnEpwFwAA
   </data>
  </layer>
- <objectgroup name="Object Layer 1" width="100" height="30">
-  <object x="1" y="177" width="274" height="46"/>
-  <object x="278" y="177" width="171" height="45"/>
-  <object x="451" y="177" width="214" height="45"/>
-  <object x="665" y="177" width="101" height="49"/>
-  <object x="609" y="161" width="85" height="24"/>
-  <object x="690" y="161" width="29" height="20"/>
-  <object x="641" y="145" width="46" height="23"/>
-  <object gid="1" x="496" y="164"/>
-  <object gid="1" x="512" y="164"/>
-  <object gid="1" x="507" y="164"/>
-  <object gid="1" x="496" y="177"/>
-  <object gid="1" x="512" y="177"/>
-  <object gid="1" x="506" y="176"/>
-  <object gid="1" x="400" y="168"/>
-  <object gid="1" x="400" y="176"/>
-  <object gid="1" x="288" y="176"/>
-  <object gid="1" x="303" y="176"/>
-  <object gid="1" x="320" y="176"/>
-  <object gid="1" x="319" y="176"/>
-  <object gid="1" x="224" y="180"/>
-  <object x="238" y="153" width="1" height="16"/>
- </objectgroup>
 </map>

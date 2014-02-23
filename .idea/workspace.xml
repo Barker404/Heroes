@@ -5,18 +5,19 @@
     <ignored path="Heroes.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393111036002" ignored="false" />
-    <file path="/Heroes.java" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393145167380" ignored="false" />
-    <file path="$PROJECT_DIR$/../Egyptians/.idea/workspace.xml" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393172631563" ignored="false" />
+    <file path="/Heroes.java" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393186535593" ignored="false" />
+    <file path="$PROJECT_DIR$/../Egyptians/.idea/workspace.xml" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393189072478" ignored="false" />
     <file path="/Menu.java" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393136291088" ignored="false" />
-    <file path="/Running.java" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393171657258" ignored="false" />
+    <file path="/Running.java" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393186293731" ignored="false" />
     <file path="/End.java" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393135814468" ignored="false" />
     <file path="/Intro.java" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393137586427" ignored="false" />
-    <file path="/Termination.java" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393144883983" ignored="false" />
-    <file path="/Contents.java" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393160651772" ignored="false" />
-    <file path="/Debut.java" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393166219025" ignored="false" />
+    <file path="/Termination.java" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393186335873" ignored="false" />
+    <file path="/Contents.java" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393186793742" ignored="false" />
+    <file path="/Debut.java" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393176923884" ignored="false" />
     <file path="/Button.java" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393145852784" ignored="false" />
     <file path="/Entity.java" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393168509655" ignored="false" />
-    <file path="/Monocle.java" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393172577467" ignored="false" />
+    <file path="/Monocle.java" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393183166920" ignored="false" />
+    <file path="/Silence.java" changelist="75e52820-2ac2-46c8-a81f-11f4c89fe46b" time="1393189116394" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +78,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Heroes.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Heroes/Heroes.java">
+      <file leaf-file-name="Silence.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Heroes/States/Silence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="33" selection-start="1300" selection-end="1320" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="73" column="37" selection-start="2145" selection-end="2145" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,7 +92,7 @@
       <file leaf-file-name="Contents.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Heroes/States/Contents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="101" selection-start="4276" selection-end="4365" vertical-scroll-proportion="0.0">
+            <state line="43" column="70" selection-start="980" selection-end="1044" vertical-scroll-proportion="-3.08">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,7 +112,7 @@
       <file leaf-file-name="Debut.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Heroes/States/Debut.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="23" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.0">
+            <state line="27" column="68" selection-start="671" selection-end="671" vertical-scroll-proportion="4.4">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,7 +132,7 @@
       <file leaf-file-name="Running.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Heroes/States/Running.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="5" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.9285714">
+            <state line="112" column="70" selection-start="3302" selection-end="3302" vertical-scroll-proportion="0.53125">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,7 +143,7 @@
       <file leaf-file-name="Monocle.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Heroes/Entities/Super/Monocle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="29" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
+            <state line="54" column="23" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,7 +154,7 @@
       <file leaf-file-name="Termination.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Heroes/States/Termination.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+            <state line="30" column="4" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,21 +186,21 @@
         <option value="$PROJECT_DIR$/src/Heroes/States/End.java" />
         <option value="$PROJECT_DIR$/src/Heroes/States/Menu.java" />
         <option value="$PROJECT_DIR$/src/Heroes/Button.java" />
-        <option value="$PROJECT_DIR$/src/Heroes/States/Termination.java" />
         <option value="$PROJECT_DIR$/src/Heroes/Entities/Button.java" />
-        <option value="$PROJECT_DIR$/src/Heroes/States/Contents.java" />
-        <option value="$PROJECT_DIR$/src/Heroes/States/Debut.java" />
-        <option value="$PROJECT_DIR$/src/Heroes/Heroes.java" />
         <option value="$PROJECT_DIR$/src/Heroes/Entities/Entity.java" />
         <option value="$PROJECT_DIR$/src/Heroes/Entities/Super/Monocle.java" />
+        <option value="$PROJECT_DIR$/src/Heroes/Heroes.java" />
+        <option value="$PROJECT_DIR$/src/Heroes/States/Contents.java" />
+        <option value="$PROJECT_DIR$/src/Heroes/States/Debut.java" />
+        <option value="$PROJECT_DIR$/src/Heroes/States/Termination.java" />
+        <option value="$PROJECT_DIR$/src/Heroes/States/Silence.java" />
         <option value="$PROJECT_DIR$/src/Heroes/States/Running.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="width" value="1364" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -350,6 +353,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
@@ -507,14 +511,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1364" height="728" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -523,9 +527,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22828507" sideWeight="0.6647792" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15745008" sideWeight="0.48161122" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33522084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5183888" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -604,37 +608,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Heroes/States/Contents.java">
+    <entry file="file://$PROJECT_DIR$/src/Heroes/Entities/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="101" selection-start="4276" selection-end="4365" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Heroes/States/Debut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="23" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Heroes/States/Termination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Heroes/Heroes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="33" selection-start="1300" selection-end="1320" vertical-scroll-proportion="0.0">
+        <state line="18" column="29" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Heroes/Entities/Super/Monocle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="23" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -645,16 +631,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Heroes/Entities/Entity.java">
+    <entry file="file://$PROJECT_DIR$/src/Heroes/Heroes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+        <state line="66" column="47" selection-start="1831" selection-end="1831" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Heroes/Entities/Super/Monocle.java">
+    <entry file="file://$PROJECT_DIR$/src/Heroes/States/Contents.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="29" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
+        <state line="43" column="70" selection-start="980" selection-end="1044" vertical-scroll-proportion="-3.08">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Heroes/States/Debut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="68" selection-start="671" selection-end="671" vertical-scroll-proportion="4.4">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Heroes/States/Termination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="4" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Heroes/States/Silence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="37" selection-start="2145" selection-end="2145" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -663,7 +676,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Heroes/States/Running.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="5" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.9285714">
+        <state line="112" column="70" selection-start="3302" selection-end="3302" vertical-scroll-proportion="0.53125">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,9 +1,6 @@
 package Heroes;
 
-import Heroes.States.Contents;
-import Heroes.States.Debut;
-import Heroes.States.Running;
-import Heroes.States.Termination;
+import Heroes.States.*;
 import org.newdawn.slick.*;
 import org.newdawn.slick.state.StateBasedGame;
 
@@ -20,7 +17,8 @@ public class Heroes extends StateBasedGame{
     private final  int CONTENTS = 0;
     private final  int DEBUT = 1;
     private final  int RUNNING = 2;
-    private final  int TERMINATION = 3;
+    private final  int SILENCE = 3;
+    private final  int TERMINATION = 4;
 
     private final static int HEIGHT = 15;
     private final static int WIDTH = 20;
@@ -53,6 +51,7 @@ public class Heroes extends StateBasedGame{
         this.addState(new Contents(CONTENTS));
         this.addState(new Debut(DEBUT));
         this.addState(new Running(RUNNING));
+        this.addState(new Silence(SILENCE));
         this.addState(new Termination(TERMINATION));
     }
 

@@ -17,6 +17,10 @@ public class Monocle extends  Entity{
 
     private Animation moving;
 
+    private boolean airborne;
+    private boolean alive;
+    private int velocity;
+
     public Monocle(int x, int y) {
 
         this.x = x;
@@ -33,21 +37,47 @@ public class Monocle extends  Entity{
             e.printStackTrace();
         }
 
-        int duration = 500;
-        moving = new Animation(sprite, duration, false);
+        int duration = 200;
+        moving = new Animation(sprite, duration, true);
+        alive = true;
+        airborne = false;
 
     }
 
     public void jump() {
-
+        if (!airborne) {
+            airborne = true;
+            if (velocity > -20) velocity -=17;
+        }
     }
 
+    public void update() {
+        if (airborne & velocity < 20) velocity +=1;
+        y += velocity;
+        if (x+h < 0) alive = false;
+    }
+
+    public boolean isAirborne() {
+        return airborne;
+    }
 
     public Animation getMoving() {
         return moving;
     }
 
-    public void update() {
-        if(collideFront) y -=
+    public void setAirborne(boolean airborne) {
+        this.airborne = airborne;
+    }
+
+    public int getVelocity() {
+        return velocity;
+    }
+
+    public void setVelocity(int velocity) {
+        this.velocity = velocity;
+    }
+
+    public boolean isAlive() {
+        return alive;
     }
 }
