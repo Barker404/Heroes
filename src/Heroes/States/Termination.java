@@ -10,30 +10,35 @@ import org.newdawn.slick.state.StateBasedGame;
  * Created with IntelliJ IDEA.
  * User: Lewis
  * Date: 23/02/14
- * Time: 01:44
+ * Time: 06:10
  * To change this template use File | Settings | File Templates.
  */
-public class Menu extends BasicGameState {
+public class Termination extends BasicGameState {
 
+    private int stateId;
     private StateBasedGame game;
+
+    public Termination(int id) {
+        this.stateId = id;
+    }
 
     @Override
     public int getID() {
-        return 0;
+        return stateId;
     }
 
     @Override
-    public void init(GameContainer container, StateBasedGame stateBasedGame) throws SlickException {
-        this.game = game;
+    public void init(GameContainer container, StateBasedGame sbg) throws SlickException {
+        this.game = sbg;
     }
 
     @Override
-    public void render(GameContainer container, StateBasedGame stateBasedGame, Graphics g) throws SlickException {
+    public void render(GameContainer container, StateBasedGame sbg, Graphics g) throws SlickException {
 
     }
 
     @Override
-    public void update(GameContainer container, StateBasedGame stateBasedGame, int delta) throws SlickException {
+    public void update(GameContainer container, StateBasedGame sbg, int delta) throws SlickException {
 
     }
 }

@@ -1,7 +1,10 @@
 package Heroes;
 
-import org.newdawn.slick.GameContainer;
-import org.newdawn.slick.SlickException;
+import Heroes.States.Contents;
+import Heroes.States.Debut;
+import Heroes.States.Running;
+import Heroes.States.Termination;
+import org.newdawn.slick.*;
 import org.newdawn.slick.state.StateBasedGame;
 
 /**
@@ -14,8 +17,32 @@ import org.newdawn.slick.state.StateBasedGame;
 
 public class Heroes extends StateBasedGame{
 
-    public static void main(String[] args) throws SlickException {
+    private final  int CONTENTS = 0;
+    private final  int DEBUT = 1;
+    private final  int RUNNING = 2;
+    private final  int TERMINATION = 3;
 
+    private final static int HEIGHT = 15;
+    private final static int WIDTH = 20;
+
+    static Input input;
+    static Graphics graphics;
+
+    public static void main(String[] args) throws SlickException {
+        System.setProperty("org.lwjgl.librarypath",System.getProperty("user.home") + "/natives");
+        System.setProperty("net.java.games.input.librarypath", System.getProperty("org.lwjgl.librarypath"));
+
+        try {
+            input = new Input(HEIGHT*32);
+            AppGameContainer app = new AppGameContainer(new Heroes("Heroes"));
+            app.setDisplayMode(32*WIDTH, 32*HEIGHT,false);
+            app.setTargetFrameRate(60);
+            app.start();
+        }
+        catch (SlickException e)
+        {
+            e.printStackTrace();
+        }
     }
 
     public Heroes(String name) {
@@ -23,7 +50,26 @@ public class Heroes extends StateBasedGame{
     }
 
     public void initStatesList(GameContainer container) throws SlickException {
-        addState((new Heroes.States.Menu()));
+        this.addState(new Contents(CONTENTS));
+        this.addState(new Debut(DEBUT));
+        this.addState(new Running(RUNNING));
+        this.addState(new Termination(TERMINATION));
     }
 
+
+    public static Input getInput() {
+        return input;
+    }
+
+    public static Graphics getGraphics() {
+        return graphics;
+    }
+
+    public static int getHeight() {
+        return 32*HEIGHT;
+    }
+
+    public static int getWidth() {
+        return 32*WIDTH;
+    }
 }
