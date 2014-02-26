@@ -76,8 +76,6 @@ public class Running extends BasicGameState {
 
     @Override
     public void update(GameContainer container, StateBasedGame sbg, int i) throws SlickException {
-        mono.update();
-        xOffset -= SPEED;
 
         //checks in front of mono
         int predictedX = mono.getX()+SPEED-xOffset;
@@ -87,30 +85,41 @@ public class Running extends BasicGameState {
 
 
         //checks below mono
+        int predictedY;
+        if (mono.getVelocity()+1 > 20) {
+            predictedY = mono.getY() + 20 + mono.getH();
+        }
+        else if (mono.getVelocity()+1< -20) {
+            predictedY = mono.getY() + (-20) + mono.getH();
+        }
+        //will always happen if not airborne (velocity should be 0)
+        else predictedY = mono.getY() + mono.getVelocity()+1 + mono.getH();
+
         if (mono.isAirborne()) {
-            int predictedY;
-            if (mono.getVelocity()+1 > 20) {
-                predictedY = mono.getY() + 20 + mono.getH();
-            }
-            else if (mono.getVelocity()+1< -20) {
-                predictedY = mono.getY() + (-20) + mono.getH();
-            }
-            else predictedY = mono.getY() + mono.getVelocity()+1 + mono.getH();
             if (getBlocked(mono.getX()+SPEED-xOffset,predictedY)) {
                 mono.setAirborne(false);
                 mono.setVelocity(0);
                 mono.setY(((predictedY / SIZE) * SIZE) - mono.getH());
             }
         }
+        else {
+            if (!getBlocked(mono.getX()+SPEED-xOffset,predictedY)) {
+                //mono is going to fall
+                mono.setAirborne(true);
+            }
+        }
 
-        //kills mono
         mono.update();
+        xOffset -= SPEED;
+
+
+        //kills the mono
         if (!mono.isAlive() & gameInPlay) {
             gameInPlay = false;
             sbg.enterState(4, new FadeOutTransition(Color.red), new FadeInTransition(Color.black));
         }
 
-        //mono wins!
+        //mono wins! (he thinks)
         if (mono.isAlive() & xOffset < (-(SIZE*93))) {
             sbg.enterState(3, new FadeOutTransition(Color.white), new FadeInTransition(Color.white));
         }

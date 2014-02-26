@@ -15,6 +15,10 @@ import org.newdawn.slick.SlickException;
 
 public class Monocle extends  Entity{
 
+    private static final int GRAVITY = 2;
+    private static final int JUMP = 20;
+
+
     private Animation moving;
 
     private boolean airborne;
@@ -47,12 +51,12 @@ public class Monocle extends  Entity{
     public void jump() {
         if (!airborne) {
             airborne = true;
-            if (velocity > -20) velocity -=17;
+            if (velocity > -20) velocity -=JUMP;
         }
     }
 
     public void update() {
-        if (airborne & velocity < 20) velocity +=1;
+        if (airborne & velocity < 20) velocity +=GRAVITY;
         y += velocity;
         if (x+h < 0) alive = false;
     }
